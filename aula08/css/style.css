@@ -1,0 +1,54 @@
+            @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+            body {
+                font-family: 'Oswald', sans-serif;
+            }
+            /* spoiler  do nosso modelo caixa*/
+            
+            .div {
+                background-image: url ('.. /imagens/vingadores-90s-890x466.jpg');
+                background - position: right: center;
+                background-repeat: no-repeat;
+                background-size: review-score;
+                /*largura*/
+                height: 10000px;
+                /*altura*/
+                width: 600%;
+                padding: 50 px;
+                border: solid 20px red;
+            }
+            
+            img {
+                width: 100%;
+                padding: 10 px;
+                border: solid 10px red;
+            }
+            
+            body {
+                background-color: #131313
+            }
+            
+            h1 {
+                color: white;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+            
+            @import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Oswald&family=Roboto+Condensed:ital@1&display=swap');
+            .review-score {
+                font-family: 'Fruktur', cursive;
+                color: white;
+                background-color: #e6bd09;
+                padding: 12px;
+            }
+            
+            h2 {
+                color: steelblue;
+            }
+            
+            p {
+                color: #bdbdbd;
+                fonte-family: font-family: 'Roboto Condensed', sans-serif;
+            }
+            
+            a {
+                color: yellow;
+            }

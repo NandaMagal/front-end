@@ -1,0 +1,36 @@
+body {
+    background-color: rgb (22, 56, 100)
+}
+
+body {
+    font-family: sans-serif
+}
+
+* {
+    color: green
+}
+
+h1 {
+    color: 0d1b97;
+    font-size: 40;
+}
+
+h2 {
+    font-size: 20;
+}
+
+.job-title {
+    color font: 898dbe;
+    font-size: 20px;
+    padding: (5, 10, 5, 10);
+}
+
+#high {
+    color: rgb (13, 27, 151);
+}
+
+ul {
+    background-color: 333333;
+    padding: (10, 20, 15);
+    color font: rgb (223, 215, 185);
+}
