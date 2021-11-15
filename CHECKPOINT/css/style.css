@@ -1,0 +1,78 @@
+    * {
+        box-sizzing: border-box;
+        margin: 0;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+    h1 {
+        background-color: rgb(46, 43, 243);
+        Color: rgb(99, 9, 76);
+        text-align: center;
+        font-family: 'Genos', sans-serif;
+        font-size: 50px;
+        font-style: oblique;
+        font-weight: 200;
+        padding: 20px;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+    p {
+        Color: rgb(216, 233, 223);
+        text-align: left;
+        font-family: 'Shalimar', cursive;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 200;
+        background-color: rgb(35, 5, 104);
+        padding: 20px;
+    }
+    
+    main {
+        display: block;
+    }
+    
+    body,
+    html {
+        margin: 0;
+        height: 100%;
+    }
+    
+    .bg {
+        background-color: #082767;
+        background-image: url("/imagens/terceira ponte.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+    #videos {
+        width: 50%;
+        height: 50%;
+        padding: 2px;
+        position: right;
+        border-image-repeat: repeat;
+    }
+    
+    .imagem1,
+    .imagem2 {
+        margin: auto;
+        border: center;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+    #rodape {
+        font-family: 'Rajdhani', sans-serif;
+        padding: 20px;
+    }
+    
+    .curiosidades {
+        Color: rgb(216, 233, 223);
+        text-align: left;
+        font-family: 'Shalimar', cursive;
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 200;
+        background-color: rgb(209, 202, 224);
+        padding: 20px;
+    }

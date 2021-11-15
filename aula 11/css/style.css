@@ -1,0 +1,56 @@
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 500px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .CX1 {
+            width: 250px;
+            height: 250px;
+            padding: 60px;
+            border: black 15px double;
+            background-color: rgb(16, 204, 9);
+            font-size: 5px;
+            color: blue;
+            text-align: center;
+        }
+        
+        .cxpequena1 {
+            * {
+                box-sizing: border-box;
+            }
+            width: 150px;
+            height: 150px;
+            padding: 20px;
+            margin: center;
+            border: rgb(192, 40, 40) 5px solid;
+            background-color: rgb(15, 129, 150);
+            font-size: 7px;
+            color: rgb(17, 10, 14);
+            text-align: center;
+            margin: 2px;
+            margin: bottom 105px;
+        }
+        
+        #caixa maior {
+            border: 50px rgb(224, 29, 104) solid;
+            padding: 5px;
+            position: relative;
+            /*posicionando o ancestral para o absolute funcionar na div 2*/
+        }
+        /* posiciona o elemento em relação ao body
+  OU
+  em relação ao ancestral mais próximo que esteja posicionado 
+  retira o elemento do normal flow (fluxo normal de renderização)*/
+        
+        .absolute {
+            position: absolute;
+            right: 30px;
+            bottom: -70px;
+        }
