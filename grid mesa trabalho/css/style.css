@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+body {
+    display: grid;
+    width: 100%;
+    padding: 2px;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (2, 1fr);
+    gap: 5px;
+    grid-template-areas:
+}
+
+body header {
+    border: 1px solid rgb(214, 16, 16);
+    background-color: aqua;
+    grid-area: header;
+    height: 100px;
+}
+
+body aside {
+    background-color: blue;
+    grid-area: aside;
+    height: 600px;
+}
+
+body main {
+    background-color: red;
+    grid-area: main;
+    height: 600px;
+}
+
+body footer {
+    background-color: yellow;
+    grid-area: footer;
+    height: 150px;
+}

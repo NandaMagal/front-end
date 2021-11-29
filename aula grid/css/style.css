@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.gridContainer {
+    display: grid;
+    width: 100%;
+    padding: 2px;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (2, 1fr);
+    gap: 5px;
+    grid-template-areas: "um um dois" "tres quatro dois";
+}
+
+.gridItem {
+    border: 1px solid rgb(214, 16, 16);
+    border-radius: 40px;
+    background-color: blueviolet;
+}
+
+.um {
+    grid -area: um;
+}
+
+.dois {
+    grid -area: dois;
+}
+
+.tres {
+    grid -area: tres;
+}
+
+.quatro {
+    grid -area: quatro;
+}
