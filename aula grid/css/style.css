@@ -10,10 +10,10 @@
     width: 100%;
     padding: 2px;
     height: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: (2, 1fr);
+    grid-template-columns: repeat: 70% 30%;
+    grid-template-rows: 30px, 1fr;
     gap: 5px;
-    grid-template-areas: "um um dois" "tres quatro dois";
+    grid-template-areas: "header header" "main aside";
 }
 
 .gridItem {
@@ -22,16 +22,16 @@
     background-color: blueviolet;
 }
 
-.um {
-    grid -area: um;
+.header {
+    grid-area: header;
 }
 
-.dois {
-    grid -area: dois;
+.main {
+    grid-area: main;
 }
 
-.tres {
-    grid -area: tres;
+.aside {
+    grid-area: aside;
 }
 
 .quatro {
