@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+#header {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 1;
+    z-index: 10000;
+}
+
+div {
+    display: block;
+}
+
+#header .navbar {
+    background-color: rgb(241, 116, 94);
+    color: rgb(247, 9, 9);
+    height: 15vh;
+}
+
+#header .collapse {
+    font-style: italic;
+    height: 15vh;
+    font-size: 1em;
+}
+
+#banner .container {
+    height: 85vh;
+    border: 1px solid;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5)), url("/img/img4.jfif");
+    text-align: center;
+    background-attachment: scroll;
+}
+
+#itens {
+    scroll-behavior: smooth;
+}
+
+.card {
+    gap: 10 px;
+}
+
+#header .nav-link {
+    border-bottom: 4px solid red;
+    font-weight: bold;
+}
+
+#header .nav-link:hover {
+    color: rgb(194, 23, 103);
+    border-bottom: 2px solid rgb(218, 39, 7);
+}
+
+#header .container .nav-bar {
+    border-bottom: 4px solid red;
+    font-weight: bold;
+    background-color: #f8130b;
+}
+
+.btn-primary {
+    background-color: #f8130b;
+}
+
+@import url ('https://fonts.googleapis.com/css2? família=Great+Vibes&display=swap');
+p {
+    text-align: justify;
+    font-family: 'Grandes Vibrações', cursiva;
+    color: rgb(8, 8, 8);
+    font-size: 1rem;
+}
+
+.card {
+    gap: 15px;
+    background-color: rgb(235, 187, 168);
+}
+
+@import url ('https://fonts.googleapis.com/css2? família=Great+Vibes&family=Kaushan+Script&family=MonteCarlo&family=Sacramento&display=swap');
+#footer .container {
+    background-color: #ddd7d7ee;
+    height: 300px;
+    font-size: 0.4rem;
+    font-family: 'MonteCarlo', cursivo;
+}
+
+
+/*# sourceMappingURL=style.css.map */

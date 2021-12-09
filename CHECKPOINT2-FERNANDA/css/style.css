@@ -1,228 +1,397 @@
-            * {
-                box-sizzing: border-box;
-                margin: 0;
-            }
-            
-            @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
-            .titulo {
-                background-color: rgb(46, 43, 243);
-                Color: rgb(22, 24, 21);
-                text-align: center;
-                font-family: 'Genos', sans-serif;
-                font-size: 60px;
-                font-style: oblique;
-                font-weight: 200;
-                padding: 20px;
-            }
-            
-            @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
-            .sites {
-                background-color: rgb(43, 243, 43);
-                Color: rgb(22, 24, 21);
-                text-align: center;
-                font-family: 'Genos', sans-serif;
-                font-size: 40px;
-                font-style: italic;
-                font-weight: 100;
-                padding: 20px;
-            }
-            
-            @import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
-            .curiosidades {
-                Color: rgb(37, 238, 121);
-                text-align: left;
-                font-family: 'Shalimar', cursive;
-                font-size: 15px;
-                font-style: italic;
-                font-weight: 200;
-                background-color: rgb(35, 5, 104);
-                padding: 20px;
-            }
-            
-            main {
-                display: block;
-            }
-            
-            html {
-                margin: auto;
-                height: 100%;
-            }
-            
-            .bg {
-                background-color: #0845c0;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-attachment: fixed;
-                background-position: center;
-                color font-weight: bold;
-                margin: 0;
-                height: 100%;
-            }
-            
-            #videos1 {
-                width: 50%;
-                height: 50%;
-                padding: 2px;
-                position: center;
-                border-image-repeat: no-repeat;
-                border: center;
-            }
-            
-            #videos2 {
-                width: 50%;
-                height: 50%;
-                padding: 2px;
-                position: center;
-                border-image-repeat: no-repeat;
-                border: center;
-            }
-            
-            .imagem1,
-            .imagem2,
-            .imagem3 {
-                margin: 0;
-                border: center;
-            }
-            
-            fieldset {
-                border: 4px solid;
-            }
-            
-            .sites:hover {
-                color: red;
-                background-color: blueviolet;
-            }
-            
-            @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
-            #rodape {
-                font-family: 'Rajdhani', sans-serif;
-                padding: 20px;
-            }
-            
-            .curiosidades {
-                Color: rgb(20, 53, 187);
-                text-align: left;
-                font-family: 'Shalimar', cursive;
-                font-size: 15px;
-                font-style: italic;
-                font-weight: 200;
-                background-color: rgb(209, 202, 224);
-                padding: 20px;
-            }
-            
-            #header {
-                background color: rgb(255, 255, 255);
-                border-radius: 50px solid transparent;
-                background-image: center;
-            }
-            
-            .formulario,
-            .hobbies,
-            .city,
-            .idade {
-                width: fit-content;
-                background-color: aquamarine 4px solid;
-                font style: italic;
-                background font: blue;
-            }
-            
-            #catedral {
-                background-image src="./imagens/catedral de vitória.jpg ";
-                background color: blue;
-            }
-            
-            .titulo {
-                background-color: rgb(32, 185, 29);
-                font style: italic;
-            }
-            
-            .hobbiespasseios {
-                background-color: rgb(12, 144, 161);
-            }
-            
-            .imagemfundo {
-                background-image: url(../../images/praiadocanto.png);
-                background-color: rgb(45, 67, 56);
-                background-size: cover;
-                color: transparent;
-            }
-            
-            .legend {
-                background color: red;
-                font-size: 25px;
-            }
-            
-            .botao {
-                margin: 25px;
-                width: 60px;
-                height: 60px;
-                border: 5px solid rgb(202, 25, 25);
-                border-radius: 5px;
-                background-color: rgb(214, 47, 150);
-                color: white;
-                font-size: 10px;
-                transition-property: background-color;
-                transition-timing-function: ease;
-                transition-duration: .10s;
-            }
-            
-            .botao:hover {
-                background-color: rgb(44, 33, 33);
-                font-weight: italic;
-            }
-            
-            .anima3 {
-                margin: 100px;
-                width: 100px;
-                height: 100px;
-                border-radius: 50%;
-                background-color: aqua;
-                animation: voar 5s infinite;
-            }
-            
-            @keyframes voar {
-                40% {
-                    opacity: 70%;
-                }
-                100% {
-                    opacity: 60%;
-                    transform: translateX(200px)
-                }
-            }
-            
-            @keyframes viajar {
-                40% {
-                    opacity: 70%;
-                }
-                0% {
-                    opacity: 60%;
-                    transform: rotateZ(10deg);
-                }
-            }
-            
-            .anime1 {
-                width: 300px;
-                margin: 120px;
-                transition: .3s transform;
-                animation: viajar 10s infinite;
-            }
-            
-            .anime2:hover {
-                transform: rotate3d(1, 2.0, 3.0, 10deg);
-                animation: voar 30s infinite;
-            }
-            
-            input:focus-visible {
-                background-color: rgb(188, 233, 188);
-            }
-            
-             :target {
-                font-weight: bold;
-            }
-            
-            a:link,
-            a:visited {
-                color: rgb(240, 235, 245);
-                background-color: ;
-                border-color: red;
-            }
+margin: 0;
+border: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgb(156, 88, 5);
+
+}
+html {
+    margin: auto;
+    height: auto;
+    font-size: 12px;
+}
+header {
+    background color: rgb(255, 255, 255);
+    border-radius: 6px solid transparent;
+    background-image: center;
+    grid-area: header;
+    padding: 12px;
+}
+aside {
+    grid-area: aside;
+    background-color: #0a7006;
+    padding: 20px;
+}
+main {
+    grid-area: main;
+    background-color: #0d94a0;
+    color: #f109de;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    gap: 2px;
+}
+footer {
+    grid-area: footer;
+    background-color: #05861a;
+    padding: 10px;
+}
+.containerBody {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+.texto,
+.menuitem,
+.Descricao {
+    background-color: rgb(72, 75, 69);
+    Color: rgb(22, 24, 21);
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 1em;
+    padding: 2px;
+    text-align: justify;
+}
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,500&display=swap');
+.links {
+    background-color: rgb(43, 243, 43);
+    Color: rgb(22, 24, 21);
+    text-align: center;
+    font-family: 'Genos', sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: 100%;
+    padding: 10px;
+    grid-area: links;
+    display: flex;
+    flex-direction: column;
+    background-color: #270b8d;
+    text-align: justify;
+}
+@import url('https://fonts.googleapis.com/css2?family=Shalimar&display=swap');
+.curiosidades {
+    Color: rgb(37, 238, 121);
+    text-align: left;
+    font-family: 'Shalimar', cursive;
+    font-style: italic;
+    background-color: rgb(35, 5, 104);
+    padding: 10px;
+    text-align: justify;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100px;
+    background-color: rgb(209, 202, 224);
+}
+.videos1,
+.videos2 {
+    width: 50%;
+    height: 50%;
+    padding: 1px;
+    position: center;
+    border-image-repeat: no-repeat;
+    border: center;
+    flex-direction: column;
+    align-items: center;
+    flex: center
+}
+.imagem1,
+.imagem2,
+.imagem3 {
+    margin: 0;
+    border: center;
+    flex-direction: column;
+    align-items: center;
+}
+.img-coluna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 2%;
+}
+fieldset {
+    border: 2px solid;
+}
+.links:hover {
+    color: red;
+    background-color: blueviolet;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+#rodape {
+    font-family: 'Rajdhani', sans-serif;
+    padding: 10px;
+}
+.curiosidades {
+    Color: rgb(20, 53, 187);
+    text-align: justify;
+    font-family: 'Shalimar', cursive;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 200;
+    background-color: rgb(209, 202, 224);
+    padding: 10px;
+}
+.formulario,
+.hobbies,
+.city,
+.idade {
+    width: fit-content;
+    background-color: aquamarine 4px solid;
+    font style: italic;
+    background font: blue;
+}
+#catedral {
+    background-image src="./imagens/catedral de vitória.jpg ";
+    background color: blue;
+}
+.titulo {
+    background-color: rgb(11, 158, 9);
+    font style: italic;
+    font-size: 20px;
+}
+.hobbiespasseios {
+    background-color: rgb(12, 144, 161);
+}
+.imagemfundo {
+    background-image: url(../../images/praiadocanto.png);
+    background-color: rgb(45, 67, 56);
+    background-size: cover;
+    color: transparent;
+    width: 50%;
+    height: 50%;
+}
+.legend {
+    background color: red;
+    font-size: 25px;
+}
+.menuitem {
+    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botao {
+    margin: 25px;
+    width: 60px;
+    height: 60px;
+    border: 5px solid rgb(202, 25, 25);
+    border-radius: 5px;
+    background-color: rgb(214, 47, 150);
+    color: white;
+    font-size: 10px;
+    transition-property: background-color;
+    transition-timing-function: ease;
+    transition-duration: .10s;
+}
+.botao:hover {
+    background-color: rgb(44, 33, 33);
+    font-weight: italic;
+}
+.anima3 {
+    margin: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: aqua;
+    animation: voar 5s infinite;
+}
+@keyframes voar {
+    40% {
+        opacity: 70%;
+    }
+    
+    50% {
+        opacity: 60%;
+        transform: translateX(200px)
+    }
+}
+@keyframes viajar {
+    40% {
+        opacity: 70%;
+    }
+    
+    3% {
+        opacity: 60%;
+        transform: rotateZ(35deg);
+    }
+}
+.anime1 {
+    width: 300px;
+    margin: 120px;
+    transition: .3s transform;
+    animation: viajar 10s infinite;
+}
+.anime2:hover {
+    transform: rotate3d(1, 2.0, 3.0, 10deg);
+    animation: voar 30s infinite;
+}
+input:focus-visible {
+    background-color: rgb(188, 233, 188);
+}
+ :target {
+    font-weight: bold;
+}
+a:link,
+{
+    color: rgb(240, 235, 245);
+    background-color: ;
+    border-color: red;
+}
+a {
+    display: inline-block;
+    width: 50px;
+    text-decoration: none;
+}
+nav,
+scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+nav {
+    width: 339px;
+    padding: 5px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+scroll-container {
+    display: block;
+    width: 350px;
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+scroll-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 2em;
+}
+@media(min-width:460px) {
+    .imagemfundo {
+        background-image: url(../../images/praiadocanto.png);
+        background-color: rgb(45, 67, 56);
+        background-size: cover;
+        color: transparent;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        width: 200%;
+        height: 90vh;
+    }
+    
+    .imagem1,
+    .imagem2,
+    .anime1,
+    .anime2,
+    .anime3,
+    .img-coluna,
+    .videos1,
+    .videos2,
+    .imagemfundo {
+        margin: 0;
+        border: center;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        height: 50vh;
+        flex-wrap: wrap;
+    }
+    
+    .textos {
+        font-size: 1em;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    main {
+        grid-area: main;
+        background-color: #0d94a0;
+        color: #083383;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2px;
+        display: block;
+        width: 50%;
+        height: 50vh;
+    }
+}
+@media(min-width:768px) {
+    .imagens-col {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    img {
+        width: 40%;
+        margin: 2%
+    }
+    
+    p {
+        font-size: 20px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+}
+@media(min-width:1280px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 15% 70% 15%;
+        grid-template-rows: 50px 1fr 50px;
+        grid-template-areas: 'header header header' 'aside main links' 'footer footer footer';
+    }
+    
+    .imagens-col {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    
+    img {
+        width: 28%;
+        margin: 2%
+    }
+}
+    .imagens-col {        display: flex;
+        flex-dir        flex-wrap: wrap;
+        align-items: cter;
+        justify-content: center;
+    }
+        { width: 40%; margin: 5px;}
+@medi (min-width: 1280px) {
+    .imagens-col {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    img {
+        width: 30%;
+        margin: 5px;
+    }
+}
